@@ -1,0 +1,14 @@
+server :
+  port: 8080
+
+spring :
+  data :
+    mongodb:
+      database : ManageUsers
+      port: 27017
+      host: localhost
+
+auth :
+  expiration : 604800
+  secret : medoScript1234
+  header : Authorization
